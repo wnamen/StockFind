@@ -1,10 +1,10 @@
 # StockFind
 
-The objective is to build a functional StockFind app using the unofficial Google Finance API.
+The objective is to build a functional StockFind app using the official Barchart Free API.
 
 ## Project Overview
 
-This app should contain only 2 pages, Home and Stock. The Home page should serve as a generic landing page with 
+This app should contain at least 2 pages, Home and Stock. The Home page should serve as a generic landing page with 
 the ability to search for a ticker. Upon a successful search, the user should be redirected to the
 stock page where some basic, real-time data is displayed.
 
@@ -15,7 +15,7 @@ Required Tech:
 3. React-Router
 5. Axios or Request
 6. Create-React-App
-3. Google Finance API
+3. Barchart Free API
 7. AWS
 
 ## Step 1: Initial Architecture
@@ -47,15 +47,15 @@ Required Features:
 
 ## Step 4: Wire Up the Stock Data
 
-Use the following link to documentation on how to access Google Finance's Unofficial API:
+Use the following link to documentation on how to access Barchart's Free API:
 
-http://www.jarloo.com/real-time-google-stock-api/
+https://www.barchart.com/ondemand/free-market-data-api
 
 Use redux to handle the API call and pass the data to the UI.
 
 ## Step 5: Build for Production and Deploy
 
-Now that the app is complete, build a production version of the app and deploy it using AWS.
+Now that the app is complete, build a production version of the app and deploy it using AWS. You can use an Elastic Beanstalk or S3 Web Hosting.
 
 ## Step 6: Submission
 
